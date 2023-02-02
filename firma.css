@@ -1,0 +1,16 @@
+svg{
+    width: 300 vw;
+}
+
+.animacion{
+stroke-dasharray: 1;
+stroke-dashoffset: 1;
+animation: anime 5s  linear alternate infinite ;
+}
+
+@keyframes anime {
+ to {
+        stroke-dashoffset: 0;
+    }
+}
+
